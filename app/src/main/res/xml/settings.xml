@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <us.melokalia.dev.alman.XEditTextPreference
+        android:defaultValue=""
+        android:selectAllOnFocus="true"
+        android:title="Command URL"
+        android:key="srv_url"
+        android:summary="your command url here"
+        android:singleLine="true"
+    />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:title="Use Basic Auth"
+        android:key="ba_enabled" />
+    <us.melokalia.dev.alman.XEditTextPreference
+        android:defaultValue="username"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:enabled="false"
+        android:summary="username"
+        android:title="Basic Auth username:"
+        android:key="ba_user"
+    />
+    <EditTextPreference
+        android:defaultValue="password"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:enabled="false"
+        android:title="Basic Auth password:"
+        android:summary="Provide the basic auth. password"
+        android:key="ba_pass"
+        android:inputType="textPassword"
+        />
+</PreferenceScreen>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alman</string>
+    <string name="connection_error">Connection error.</string>
+    <string name="fetch_cancelled">Fetch cancelled.</string>
+</resources>
